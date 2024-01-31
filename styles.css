@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Set a fixed height for the entire popup */
+body {
+    background-color: #5dccde;
+    height: 300spx;
+    width: 325px;
+    font-family: 'Lucide Grande', monospace;
+    margin: 10px;/* Adjust the height as needed */
+    font-size: small;
+    text-align: center;
+  }
+  
+  
+  /* Style the container where your content is displayed */
+  #upcoming-deadlines {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+  }
+  
+  /* Style for each assignment card */
+  .assignment-card {
+    background-color: #9bd3dc; /* Set background color */
+    color: #000000; /* Set text color */
+    border-radius: 10px; /* Add rounded edges */
+    padding: 3px; /* Add padding for better spacing */
+    margin: 5px; /* Add margin for better spacing between cards */
+    width: 300px; /* Set a fixed width for each card */
+    text-align: center;
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Assignment Extension",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "width": 800,
+      "height": 500,
+      "default_title": "upcoming deadlines"
+    }
+  }
